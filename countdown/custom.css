@@ -1,0 +1,61 @@
+body {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300&family=Montserrat:wght@300;400;500;700&family=Nova+Square&display=swap');
+
+.main {
+    width: 100%;
+    height: 100vh;
+    background: url('wp6445908.jpg');
+    background-size: cover;
+
+}
+
+.overlay {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    color: white;
+    background-color: rgb(0, 0, 0, 0.6);
+}
+
+.tittle {
+    margin-top: 10px;
+    font-size: 2rem;
+    text-align: center;
+    font-weight: 600;
+}
+
+.col {
+    margin-top: 20px;
+    height: 300px;
+    width: 500px;
+
+    display: flex;
+    margin: 10px auto;
+
+    justify-content: center;
+
+}
+
+.col div {
+    width: 250px;
+    text-align: center;
+    padding: 50px 30PX;
+}
+
+input {
+    height: 50px;
+    background-color: rgb(255, 255, 255, 0.9);
+    border-color: transparent;
+    border-radius: 10px;
+    width: 90px;
+    text-align: center;
+    font-size: 30px;
+
+}
